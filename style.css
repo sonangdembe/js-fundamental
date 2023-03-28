@@ -76,12 +76,12 @@ input::placeholder, input {
     box-shadow: inset 0px -5px 0 0 rgba(0,0,0,0.2);
 }
 .privacy-message {
-    background-color: red;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 13px;
     text-align: center;
     color: hsl(246, 25%, 77%);
 }
-.privacy-message a{
+.privacy-message a {
     text-decoration: none;
     color:hsl(0, 100%, 74%)  ;
     font-weight: 600;
