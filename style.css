@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-image: url('./images/bg-intro-desktop.png');
     background-color:  hsl(0, 100%, 74%) ;
@@ -61,6 +60,15 @@ input::placeholder, input {
 }
 .input-group{
     margin-bottom: 20px;
+}
+.input-group.error input{
+     border: 1px solid hsl(0, 100%, 74%);
+}
+.input-group.error .message{
+    color: hsl(0, 100%, 74%);
+}
+.input-group.error input::placeholder{
+    color: hsl(0, 100%, 74%);
 }
 .button{
     width: 100%;

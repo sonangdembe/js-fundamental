@@ -35,39 +35,37 @@
 
 </p>
 </div>
-
-
 <div class="right-side">
 <p class="message"> 
 <strong> it free 7 days then $20/mo. thereafter</strong>
 </p>
 <div class="card">
-  <form>
-    <div class="input-group">
-      <input type ="text" placeholder = "Frist Name" >
+  <form name="signupForm">
+    <div class="input-group " id ="fristNameGroup">
+      <input name="fristName" type ="text" placeholder = "Frist Name" >
+        <small class  = "message"> </small>
+      </input>
+    </div>
+
+    <div class="input-group" id = "lastNameGroup">
+      <input name="lastName" type ="text" placeholder = "Last Name" >
         <small class  = "message"></small>
       </input>
     </div>
 
     <div class="input-group">
-      <input type ="text" placeholder = "Last Name" >
+      <input name="emailAddress" type ="text" placeholder = "Email address" >
         <small class  = "message"></small>
       </input>
     </div>
 
     <div class="input-group">
-      <input type ="text" placeholder = "Email address" >
+      <input name="password" type ="password" placeholder = "Password" >
         <small class  = "message"></small>
       </input>
     </div>
 
-    <div class="input-group">
-      <input type ="password" placeholder = "Password" >
-        <small class  = "message"></small>
-      </input>
-    </div>
-
-    <button class = "button">
+    <button id ="submitButton" class = "button">
       Claim your free trial
     </button>
   </form>
@@ -77,8 +75,7 @@
   </p>
 </div>
 </div>
-
-
-
+</div>
+<script src="./script.js"></script>
   </body>
 </html>
