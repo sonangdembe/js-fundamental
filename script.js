@@ -4,6 +4,7 @@ let errors = {
 };
 submitButton.addEventListener("click",function(e){
     e.preventDefault();
+    errors = {};
     let signupForm = document.forms["signupForm"];
     //console.log(signupForm);
   let fristNameInput =signupForm.fristName;
